@@ -1,4 +1,4 @@
-/* Reset i podstawowe style */
+/* Podstawowe style */
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Nagłówek */
+/* Style nagłówka */
 header {
     margin-bottom: 30px;
     text-align: center;
@@ -54,7 +54,7 @@ h1, h2, h3 {
     margin-right: 5px;
 }
 
-/* Wyszukiwarka */
+/* Style wyszukiwarki */
 .search-container {
     margin: 20px 0;
     display: flex;
@@ -87,7 +87,7 @@ h1, h2, h3 {
     background: #1aa34a;
 }
 
-/* Siatka albumów */
+/* Style dla gridu albumów */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -130,7 +130,7 @@ h1, h2, h3 {
     font-size: 14px;
 }
 
-/* Strona albumu */
+/* Style dla strony albumów */
 .album-header {
     display: flex;
     flex-wrap: wrap;
@@ -153,7 +153,7 @@ h1, h2, h3 {
     color: #555;
 }
 
-/* Lista utworów */
+/* Style dla listy utworów */
 .track-list {
     list-style: none;
     background: white;
@@ -192,7 +192,7 @@ h1, h2, h3 {
     font-size: 16px;
 }
 
-/* Strona utworu */
+/* Style dla strony utworów */
 .track-header {
     display: flex;
     flex-wrap: wrap;
@@ -247,7 +247,7 @@ h1, h2, h3 {
 }
 
 
-/* Wyniki wyszukiwania */
+/* Style dla wyników wyszukiwania */
 .search-results {
     margin-top: 30px;
 }
@@ -287,7 +287,7 @@ h1, h2, h3 {
     display: none;
 }
 
-/* Przyciski */
+/* Style dla przycisków */
 button, #back-to-album {
     padding: 10px 20px;
     background: #1db954;
@@ -306,12 +306,6 @@ button:hover, #back-to-album:hover {
 }
 
 #back-to-album {
-    /* padding: 10px 20px;
-    background: #1db954;
-    color: white;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background 0.3s; */
     display: inline-block;
     margin: 15px 0 25px;
     padding: 10px 20px;
@@ -363,7 +357,7 @@ button:hover, #back-to-album:hover {
     background: #148a3d;
 }
 
-/* Responsywność */
+/* Style odpowiedzialne za responsywność (dostosowanie do urządzenia) */
 @media (max-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr;

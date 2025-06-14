@@ -1,0 +1,427 @@
+/* Reset i podstawowe style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Nagłówek */
+header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.home-link {
+    position: absolute;
+    left: 0;
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.home-link:hover {
+    color: #148a3d;
+}
+
+.home-link::before {
+    content: "←";
+    margin-right: 5px;
+}
+
+/* Wyszukiwarka */
+.search-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search-container input {
+    padding: 12px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-container button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    background: #1db954;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.search-container button:hover {
+    background: #1aa34a;
+}
+
+/* Siatka albumów */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.album-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.album-cover {
+    width: 370px;
+    height: 370px;
+    margin: 30px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.album-card h3 {
+    padding: 15px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.album-card p {
+    padding: 0 15px 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Strona albumu */
+.album-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.album-info {
+    flex: 1;
+    min-width: 250px;
+}
+
+.album-info p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Lista utworów */
+.track-list {
+    list-style: none;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.track-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.track-item:last-child {
+    border-bottom: none;
+}
+
+.track-item:hover {
+    background: #f8f8f8;
+}
+
+.track-number {
+    min-width: 30px;
+    color: #666;
+    margin-right: 15px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.track-title {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+/* Strona utworu */
+.track-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.track-cover {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+#album-info {
+    flex: 1;
+    min-width: 250px;
+    font-size: 16px;
+    color: #555;
+}
+
+#album-info strong {
+    color: #333;
+}
+
+.lyrics {
+    white-space: pre-line;
+    line-height: 1.8;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+
+.lyrics .highlight {
+    background-color: rgba(29, 185, 84, 0.3);
+    padding: 2px 0;
+    border-radius: 3px;
+    animation: highlightPulse 1.5s infinite alternate;
+}
+
+@keyframes highlightPulse {
+    from { background-color: rgba(29, 185, 84, 0.3); }
+    to { background-color: rgba(29, 185, 84, 0.5); }
+}
+
+
+/* Wyniki wyszukiwania */
+.search-results {
+    margin-top: 30px;
+}
+
+.search-result {
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.search-result:hover {
+    transform: translateX(5px);
+}
+
+.search-result h3 {
+    margin-bottom: 10px;
+    color: #1db954;
+}
+
+.search-result small {
+    color: #666;
+    font-size: 14px;
+}
+
+.highlight {
+    background-color: rgba(29, 185, 84, 0.2);
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Przyciski */
+button, #back-to-album {
+    padding: 10px 20px;
+    background: #1db954;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, #back-to-album:hover {
+    background: #1aa34a;
+}
+
+#back-to-album {
+    /* padding: 10px 20px;
+    background: #1db954;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s; */
+    display: inline-block;
+    margin: 15px 0 25px;
+    padding: 10px 20px;
+    background: #1db954;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.back-button {
+    display: inline-block;
+    margin: 15px 0 25px;
+    padding: 10px 20px;
+    background: #1db954;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.back-button:hover {
+    background: #148a3d;
+}
+
+#back-to-tracks, #back-to-albums {
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+}
+
+.back-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#back-to-album:hover {
+    background: #148a3d;
+}
+
+/* Responsywność */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .album-header, .track-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .search-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .search-container input {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .album-cover, 
+    .album-header .album-cover,
+    .track-cover {
+        width: 300px;
+        height: 300px;
+    }
+
+    .header-top {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .home-link {
+        position: static;
+        margin-bottom: 10px;
+        align-self: flex-start;
+    }
+
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 15px;
+    }
+    
+    .track-item {
+        padding: 12px 15px;
+    }
+    
+    .lyrics {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .album-cover, 
+    .album-header .album-cover,
+    .track-cover {
+        width: 250px;
+        height: 250px;
+    }
+}

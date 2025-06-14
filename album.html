@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album - Oficjalna Strona</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+    <h1 id="album-title">Album</h1>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Szukaj fragmentu tekstu...">
+        <button id="search-btn">Szukaj</button>
+    </div>
+    <a href="../index.html" class="back-button">← Powrót do strony głównej</a>
+</header>
+
+    <main>
+        <div class="album-header">
+            <img id="album-cover" src="" alt="Okładka albumu" class="album-cover">
+            <div class="album-info">
+                <p id="release-date"></p>
+                <p id="tracks-count"></p>
+            </div>
+        </div>
+
+        <div id="tracks-container">
+            <!-- Utwory zostaną wstawione dynamicznie -->
+        </div>
+
+        <div id="search-results" class="hidden">
+            <h2>Wyniki wyszukiwania</h2>
+            <div id="results-container"></div>
+            <button id="back-to-tracks">Powrót do utworów</button>
+        </div>
+    </main>
+
+    <script src="../js/album.js"></script>
+</body>
+</html>

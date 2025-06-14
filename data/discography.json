@@ -1,0 +1,137 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "HAYA BOOM",
+      "cover": "album1.jpg",
+      "release_date": "2023",
+      "tracks": [
+        {
+          "id": 101,
+          "title": "Prokuratoreko",
+          "lyrics": "[Jebać policyjne kurwy i systemowe szmaty, i tak mnie nigdy nie znajdziecie - pozabijam was jak przyjedziecie]\n\n[Refren]\nW łapie benzo - mołotowy lecą\nW te policyjne kurwy aż w końcu wszystkie zdechną\nProkurator eko - podjechał pod sąd Teslą\nSam sobie w niej obciągnął, na parkingu pod Netto\nW łapie benzo - mołotowy lecą\nW te policyjne kurwy aż w końcu wszystkie zdechną\nProkurator eko - podjechał pod sąd teslą\nSam sobie w niej obciągnął, na parkingu pod Netto\n\n[Zwrotka 1]\nDziennie terror, w głowie kolo miał error\nŻycie rozjebało psychę nie pytaj dlaczego\nMiał zaniżone ego, przez dewastację marzeń\nA w głębi duszy sobie myślał ja wam kurwy pokaże\nNajpiеrw tatuaże - następnie rap tetki\nWpiеrdalał w siebie alko i jakieś chujowe tabletki\nPisał chujowe teksty, podsyłał Adusiowi\nA że Aduś jest w chuj szczery odpisał ze tekst chujowy\nWtedy łeb się rozpierdolił, utonął w letargu\nZaczął słuchać stękania z UK drill pedałów\nLatał z nożem siekanką po dzielnicy jak pojeb\nKtoś zadzwonił po psy lub sam wpierdolił się na bombę\nWpadli radiowozem jak Rutkowski patrol\nSamozwańcza brygada - śmierć policyjnym szmatom\nWyjebali z fury on na nich z maczetą\nWyciągli po klamce - odjebali i finito\nSee upcoming rap shows\nGet tickets for your favorite artists\nYou might also like\nPROJEKTANT BOMB\n2T4\nGdzie jest dzielnicowy\n2T4\nWELCOME TO POLAND\n2T4\n[Refren]\nW łapie benzo - mołotowy lecą\nW te policyjne kurwy aż w końcu wszystkie zdechną\nProkurator eko - podjechał pod sąd Teslą\nSam sobie w niej obciągnął, na parkingu pod Netto\nW łapie benzo - mołotowy lecą\nW te policyjne kurwy aż w końcu wszystkie zdechną\nProkurator eko - podjechał pod sąd teslą\nSam sobie w niej obciągnął, na parkingu pod Netto\n\n[Zwrotka 2]\nKolo, wypierdalał kory srogo\nSmigał po Warszawie na taksówce nocą\nZ szarym ryjem po grochówie na koko\nA to była feta diler tańczy disco-pogo\nWchodzi sędzia - stare ZOMO na salę sądową\nJebał go pies prokurator kręci głową\nSperma mu kapie z nosa, na koszulę nową\nBo sam sobie zassał chuj, w Tesli własną mordą\nPow! - pada strzał, z fotela osuwa się sędzia\nTe sądowe kurwiszony pochowały się pod krzesła\nI nic się nie zmienia, hej - Ave Czeczenia\nKurwa z ABW może assasij chuj\nMój druh - mój bratan, Allah Akbar\nJak generalny ma z tym problem, to niech wypierdala\nBo jego stara, będzie jebana\nPrzez Czeczeńskie fiuty całą noc do rana\n[Refren]\nW łapie benzo - mołotowy lecą\nW te policyjne kurwy aż w końcu wszystkie zdechną\nProkurator eko - podjechał pod sąd Teslą\nSam sobie w niej obciągnął, na parkingu pod Netto\nW łapie benzo - mołotowy lecą\nW te policyjne kurwy aż w końcu wszystkie zdechną\nProkurator eko - podjechał pod sąd teslą\nSam sobie w niej obciągnął, na parkingu pod Netto\n\n[Przejście]\nNetto, witamy mamy fajne reklamy, u was\nSigma terrori, sąd plastik pod krzesła\nPodkładam bomby nie potrafię przestać\nWchodzę z maczetą, do radia zetka\nWypierdalam kory jak Nikola Tesla\n\n[No kurwa ten, jak ten, powiedzieć coś to porządnie, nie będę ci wstydu na kawałku robić, kurwa wiesz o co chodzi? Tak żeby ich pocisnąć kurwy jebane.]",
+          "order": 1
+        },
+        {
+          "id": 102,
+          "title": "test1",
+          "lyrics": "Drugi utwór na albumie\nZ najlepszym tekstem\nKtóry wszyscy znają",
+          "order": 2
+        },
+        {
+          "id": 103,
+          "title": "test2",
+          "lyrics": "Ebeebeebe",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "SIBERIAN KALASH",
+      "cover": "album2.jpg",
+      "release_date": "2022",
+      "tracks": [
+        {
+          "id": 201,
+          "title": "test2",
+          "lyrics": "Ebeebeebe",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "JAMIGA KAKALYSH",
+      "cover": "album3.jpg",
+      "release_date": "2021",
+      "tracks": [
+        {
+          "id": 301,
+          "title": "test2",
+          "lyrics": "Ebeebeebe",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "NIKOLAI MAKAROW",
+      "cover": "album4.jpg",
+      "release_date": "2020",
+      "tracks": [
+        {
+          "id": 401,
+          "title": "test2",
+          "lyrics": "Ebeebeebe",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "STANISLAV SEMTEX",
+      "cover": "album5.jpg",
+      "release_date": "2019",
+      "tracks": [
+        {
+          "id": 501,
+          "title": "test2",
+          "lyrics": "Ebeebeebe",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "KYRIE ELEISON",
+      "cover": "album6.jpg",
+      "release_date": "2022",
+      "tracks": [
+        {
+          "id": 601,
+          "title": "test2",
+          "lyrics": "Ebeebeebe",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "FREDRICH HASS",
+      "cover": "album7.jpg",
+      "release_date": "2012",
+      "tracks": [
+        {
+          "id": 701,
+          "title": "test2",
+          "lyrics": "Ebeebeebe",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "GERARD BACHER",
+      "cover": "album8.jpg",
+      "release_date": "2011",
+      "tracks": [
+        {
+          "id": 801,
+          "title": "test2",
+          "lyrics": "Ebeebeebe",
+          "order": 3
+        }
+      ]
+    }
+  ],
+  "other_tracks": [
+    {
+      "id": 1010,
+      "title": "Singiel",
+      "cover": "single.jpg",
+      "lyrics": "To jest singiel\nNie ma go na żadnym albumie\nAle jest popularny",
+      "release_date": "2020-03-10"
+    }
+  ]
+}

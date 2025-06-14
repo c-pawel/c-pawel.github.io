@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => {
             discography = data;
             displayAlbums(data.albums, data.other_tracks);
-            // Cache'owanie danych
+
+            // Dodawanie danych do pamięci lokalnej cache:
             localStorage.setItem('discographyCache', JSON.stringify(data));
             localStorage.setItem('cacheTime', new Date().getTime());
         })
@@ -70,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'Enter') performSearch();
     });
 
+    // Funkcja rozpoczynająca wyszukiwanie
     function performSearch() {
         const query = searchInput.value.trim();
         if (!query) return;
@@ -78,13 +80,13 @@ document.addEventListener('DOMContentLoaded', () => {
         displaySearchResults(results, query);
     }
 
+    // Funkcja do szukania
     function searchLyrics(query, data) {
         const results = [];
         const exactMatch = query.startsWith('"') && query.endsWith('"');
         const cleanQuery = exactMatch ? query.slice(1, -1) : query;
         const regex = new RegExp(exactMatch ? cleanQuery : cleanQuery.split(' ').join('|'), 'i');
         
-        // Szukaj w albumach
         data.albums.forEach(album => {
             album.tracks.forEach(track => {
                 const matches = findMatchesInText(track.lyrics, regex);
@@ -99,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
         
-        // Szukaj w innych utworach
         data.other_tracks.forEach(track => {
             const matches = findMatchesInText(track.lyrics, regex);
             if (matches.length > 0) {
@@ -114,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return results;
     }
 
+    // Funkcja wyszukująca pasujące wyrazy w tekstach
     function findMatchesInText(text, regex) {
         const sentences = text.split('\n').filter(s => s.trim());
         const matches = [];
@@ -128,11 +130,13 @@ document.addEventListener('DOMContentLoaded', () => {
         
         return matches;
     }
-
+    
+    //Funkcja pozwalająca ignorować znaki interpunkcyjne, specjalne oraz wielkość liter
     function cleanText(text) {
         return text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, '').toLowerCase();
     }
 
+    // Funckja wyświetlająca wyniki wyszukiwania
     function displaySearchResults(results, query) {
         if (results.length === 0) {
             resultsContainer.innerHTML = '<p>Nie znaleziono wyników</p>';
@@ -170,24 +174,27 @@ document.addEventListener('DOMContentLoaded', () => {
         searchResults.classList.remove('hidden');
     }
 
+    // Funkcja zakreślająca znaleziony w wyszukiwarce tekst
     function highlightMatch(text, query) {
         const exactMatch = query.startsWith('"') && query.endsWith('"');
         const cleanQuery = exactMatch ? query.slice(1, -1) : query;
         const regex = new RegExp(`(${cleanQuery.split(' ').join('|')})`, 'gi');
         return text.replace(regex, '<span class="highlight">$1</span>');
     }
-
+    // Przycisk powrotu do albumów
     backToAlbumsBtn.addEventListener('click', () => {
         searchResults.classList.add('hidden');
         albumsGrid.classList.remove('hidden');
         searchInput.value = '';
     });
 
+    // Funkcja ustalająca format daty jako - rok
     function formatDate(dateString) {
     if (!dateString) return '';
     return new Date(dateString).getFullYear();
 }
 
+    // Czyszczenie cache przed wyjściem ze strony
     window.addEventListener('beforeunload', function() {
     localStorage.clear();
     sessionStorage.clear();

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const lyricsContainer = document.getElementById('lyrics-container');
     const backToAlbumLink = document.getElementById('back-to-album');
 
-    // Ładowanie danych
+    // Ładowarka danych
     fetch('../data/discography.json')
         .then(response => response.json())
         .then(data => {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             displayTrackInfo(track, album);
-            // Cache'owanie danych
+            // Dodawanie danych do cache
             localStorage.setItem('discographyCache', JSON.stringify(data));
             localStorage.setItem('cacheTime', new Date().getTime());
         })
@@ -55,7 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (track) displayTrackInfo(track, album);
             }
         });
-
+    
+    // Funkcja wyświetlająca informacje o numerze
     function displayTrackInfo(track, album) {
         trackTitle.textContent = track.title;
         

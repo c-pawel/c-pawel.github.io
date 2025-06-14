@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let albumData = null;
     let tracks = [];
 
+    // Ładowanko danych
     fetch('../data/discography.json')
         .then(response => response.json())
         .then(data => {
@@ -41,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             displayAlbumInfo(albumData);
         })
         .catch(() => {
+            // Fallback z cache
             const cachedData = localStorage.getItem('discographyCache');
             if (cachedData) {
                 const data = JSON.parse(cachedData);
@@ -59,7 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (albumData) displayAlbumInfo(albumData);
             }
         });
-
+    
+    // Funckja wyświetlająca dane o albumie
     function displayAlbumInfo(album) {
         albumTitle.textContent = album.title;
         albumCover.src = `../images/${album.cover}`;
@@ -68,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         displayTracks(album.tracks);
     }
 
+    // Funkcja wyświetlająca nutki
     function displayTracks(tracksList) {
         tracksContainer.innerHTML = '';
         tracks = tracksList;
@@ -94,9 +98,11 @@ document.addEventListener('DOMContentLoaded', () => {
         tracksContainer.appendChild(trackList);
     }
 
+    // Wyszukiwarka v2
     searchBtn.addEventListener('click', performSearch);
     searchInput.addEventListener('keypress', (e) => e.key === 'Enter' && performSearch());
 
+    // Funkcja co zaczyna szukanko
     function performSearch() {
         const query = searchInput.value.trim();
         if (!query) return;
@@ -105,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
         displaySearchResults(results, query);
     }
 
+    // Funkcja do szukania
     function searchInAlbum(query, tracksList) {
         const results = [];
         const exactMatch = query.startsWith('"') && query.endsWith('"');
@@ -126,6 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return results;
     }
 
+    // Funckcja co wyświetla wyniki wyszukiwania
     function displaySearchResults(results, query) {
         resultsContainer.innerHTML = results.length ? '' : '<p>Nie znaleziono wyników</p>';
         
@@ -152,6 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchResults.classList.remove('hidden');
     }
 
+    // Funkcja do podświetlania matchu
     function highlightMatch(text, query) {
         const exactMatch = query.startsWith('"') && query.endsWith('"');
         const cleanQuery = exactMatch ? query.slice(1, -1) : query;
@@ -160,19 +169,15 @@ document.addEventListener('DOMContentLoaded', () => {
             '<span class="highlight">$1</span>'
         );
     }
-
+    
     backToTracksBtn.addEventListener('click', () => {
         searchResults.classList.add('hidden');
         tracksContainer.classList.remove('hidden');
         searchInput.value = '';
     });
-
+    // Funkcja ustalająca format daty jako - rok
     function formatDate(dateString) {
-        if (!dateString) return '';
-        return new Date(dateString).toLocaleDateString('pl-PL', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
+    if (!dateString) return '';
+    return new Date(dateString).getFullYear();
     }
 });

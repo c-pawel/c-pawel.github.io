@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "HAYA BOOM",
-      "cover": "album1.jpg",
+      "cover": "HB-COVER.jpg",
       "release_date": "2023",
       "tracks": [
         {
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "title": "SIBERIAN KALASH",
-      "cover": "album2.jpg",
+      "cover": "siberiankalash.jpg",
       "release_date": "2022",
       "tracks": [
         {
@@ -37,7 +37,7 @@
     {
       "id": 3,
       "title": "JAMIGA KAKALYSH",
-      "cover": "album3.jpg",
+      "cover": "jamigakakalzsh.jpg",
       "release_date": "2021",
       "tracks": [
         {
@@ -51,7 +51,7 @@
     {
       "id": 4,
       "title": "NIKOLAI MAKAROW",
-      "cover": "album4.jpg",
+      "cover": "nikolaimakarow.jpg",
       "release_date": "2020",
       "tracks": [
         {
@@ -65,7 +65,7 @@
     {
       "id": 5,
       "title": "STANISLAV SEMTEX",
-      "cover": "album5.jpg",
+      "cover": "stanislavsemtex.jpg",
       "release_date": "2019",
       "tracks": [
         {
@@ -79,7 +79,7 @@
     {
       "id": 6,
       "title": "KYRIE ELEISON",
-      "cover": "album6.jpg",
+      "cover": "kyrieeleison.jpg",
       "release_date": "2022",
       "tracks": [
         {
@@ -93,7 +93,7 @@
     {
       "id": 7,
       "title": "FREDRICH HASS",
-      "cover": "album7.jpg",
+      "cover": "fredrichhass.jpg",
       "release_date": "2012",
       "tracks": [
         {
@@ -107,14 +107,56 @@
     {
       "id": 8,
       "title": "GERARD BACHER",
-      "cover": "album8.jpg",
+      "cover": "gerardbacher.jpg",
       "release_date": "2011",
       "tracks": [
         {
           "id": 801,
-          "title": "test2",
-          "lyrics": "Ebeebeebe",
+          "title": "Lubię to",
+          "lyrics": "[Słuchasz ostrej muzyki?\nWiedz, że coś się dzieję\nJak nam to wkręcą\nTo takie przedszkole, niewinne\nPoznałem tego smoka\nWiedz, że coś się dzieje]\n\nWitam wszystkich i od razu dla wariatów flacha czysta\nKapitan śląskiego statku, rozpierdole całą przystań\nRap totalny terrorysta\nLubię to, preferuję złooooooooo\n\nWolno szło, po zysku ze mną stale\nZiemia ma kształt dysku, pływa po wodzie, tak mówił Tales\nWierzę w to nadal, dalej\nLubię to preferuję złooooooo\n\nDozorca pod blokiem zmiata żółte liście\nJego żonę jutro znajdą w klatce, zajebaną z nożem w piździe\nZa to, że kablowaliście\nLubię to preferuję złooooooo\n\nPolitycy skurwysyny, sejm, wysoka izba\nKrypto pedały rządowe, cała Polska na was gwizda\nPrezydent to zwykła pizda\nLubię to preferuję złooooooo\n\nW kościelnej zakrystii ksiądz dobiera się do dzieci\nWydzielina ojca bez chuja na święte szaty leci\nKsiądz jutro z okna wyleci\nLubię to preferuję złooooooo\n\nOdjebał konfident, ludzi słucha na komendzie\nGazem w ryj, kajdany\nGity leżą na betonie w rzędzie\nJebać psy - zawsze i wszędzie\nLubię to preferuję złooooooo\n\nZboczeniec pod podstawówką dzieci obserwuje\nDzieciobójca pierdolony, coś chorego znów szykuje\nMordę mu przecwelą chuje\nLubię to preferuję złooooooo\n\nMedia płoną, skurwysyny – każda stacja buja\nRedaktorzy, redaktorki – jeden chuj, każdy to szuja\nWalter obciągnie mi chuja\nLubię to, preferuję złooooooo\n\nWszyscy księża w Watykanie – oficjalna mafia\nPiorą brudne siano, które w prywatne kieszenie trafia\nBombę zrobię dla parafian osobiście, sam podłożę\nJak jebnie to szczątki proboszcza będą zbierać na dworze\nJestem chory co raz gorzej\nBooo lubię to Bo lubię to Bo lubię to Bo lubię Bo lubię Bo lubię to Bo lubię to\n\nOficjalny terrorysta – pan Barack Obama czuwa\nTen skurwysyn się utopi w swoich własnych długach\nDla Talibów zwykła kurwa\nLubię to, preferuję złooooooo\n\nHitler nadal górą, Deutschland ponad wszystko\nSteinbach, Merkel – prostytutki, jedna od drugiej jest większą pizdą\nZgwałcę Steinbach, mieszka blisko\nLubię to preferuję złooooooo\n\nKardynał Ratzinger właśnie wpierdala śniadanie\nA na afrykańskie dzieci patrzy w willi na ekranie\nBomba jebnie w Watykanie\nLubię to preferuję złooooooo\n\nDziecko neostrady pisze; „Niezła beka”\nA gdy idzie srać do kibla to jak wyruchana suka stęka\nOjciec go analnie nęka\nLubię to preferuję złooooooo\n\nWycieczki ma na osiedlu - pełna ławka\nTaka jest na dzień dzisiejszy polskiej młodzieży zajawka\nPalona na ławce trawka\nLubię to preferuję złooooooo\n\nPolicjanci na komendzie futro kręcą\nPolicyjną suką na sygnale przed osiedle lecą\nŻe mają wjebane wiedzą\nLubię to preferuję złooooooo\n\nPod stadionem jest prewencja, na kiboli czeka\nStadion dla kibica jest jak Araba – Mekka\nJebać psa, jak kundel szczeka\nLubię to preferuję złooooooo\n\nNa wybory cały, polski naród, kraj gotowy\nLista kandydatów jest jak papier - toaletowy\nChuj wam w dupy – stu metrowy\nLubię to preferuję złooooooo\n\nPolitycy i policja, największe zło w państwie\nPrawdę chcą budować na swoim własnym kłamstwie\nWersety lecą szatańskie, w obu dłoniach po dwa noże\nZrobię to dla Ciebie, Boże, wąglik do koperty włożę\nJestem chory co raz gorzej\nBooo Bo lubię to Bo lubię to Bo lubię to Bo lubię Bo lubię Bo lubię to Bo lubię to Bo preferuję złooooo",
+          "order": 1
+        },
+        {
+          "id": 802,
+          "title": "Fukushima - Fukishima",
+          "lyrics": "W TRAKCIE",
+          "order": 2
+        },
+        {
+          "id": 803,
+          "title": "Gołąb z Watykanu",
+          "lyrics": "W TRAKCIE",
           "order": 3
+        },
+        {
+          "id": 804,
+          "title": "Całe życie z wariatami",
+          "lyrics": "[Gó Gó Gó Gó Gó Górny Śląsk Gó Gó Gó Górny Śląsk]\n\n[Zwrotka 1]\nGeneza tego syfu sięga młodzieńczych lat\nBo zaczęło się to tak, zawinięty został brat\nPóźniej w kraju na rewirach, dniami i nocami\nTerroryzowani policyjnymi akcjami\nCałe życie z wariatami bo tak mi nakazano\nPierdolę policje bo tak mnie wychowano\nRozjebaną komendę na Bema każdy popamięta\nWpierdolili im przez okno Mołotowa tam na święta\nTo nie ściema, to takie nasze hobby chore\nGdyby była praca i normalnie płacili kasiore\nTo nie chodziłby co drugi z worem, każdy miałby cel\nWiedz że rząd to nasz wróg a premier to cwel.\n\n[Refren]\nCałe życie z wariatami, pozytywnie pojebani\nSystem w kraju ryje psychę, pierdol system trzymaj z nami\nCałe życie z wariatami, pozytywnie pojebani\nSystem w kraju ryje psychę, pierdol system trzymaj z nami\n\n[Zwrotka 2]\nW Polsce spierdolone prawo, tylko politykom sprzyja\nGdy jakiś wjedzie na dzielnie to mu rozpierdole ryja\nBo każdy z nich jest jak żmija, a my przez nich wyjebani\nTo wasza zasługa że jesteśmy wariatami\nPonad podziałami idę, z własnymi zasadami\nJa nie żyję, ja to wegetuje na tej dzielni z ziomalami\n? poplamił, od zawsze jebani\nPolska to my, sami na siebie zdani\nUjebani motywem chorej rzeczywistości\nGdzie nie patrzy się na innych a co trzeci w domu pości\nZa brak pracy, brak siana, brak mieszkania\nOdpowiemy brakiem zasad, terror bez pohamowania\n\n[Refren]\nCałe życie z wariatami, pozytywnie pojebani\nSystem w kraju ryje psychę, pierdol system trzymaj z nami\nCałe życie z wariatami, pozytywnie pojebani\nSystem w kraju ryje psychę, pierdol system trzymaj z nami\nCałe życie z wariatami, całe życie z wariatami, całe życie z wariatami\nCałe życie z wariatami\n\n[Zwrotka 3]\nJeśli jutro świat się skończy, to dziś rozpierdole wszystko\nBędę pierwszym polskim kurwa oficjalnym terrorystą\nWtedy pójdzie komunikat, świat dobra z młodzieńczych lat\nBędzie przez nas wyciągnięty zza tych pierdolonych krat\nTo pierdolony szach i mat, dziś cytadela bije króla\nBo prezydent z orła w godle zrobił zwykłego ciula\nMiędzy oczy leci kula, to snajperski karabinek\nZnów zabili prezydenta, to już drugi odcinek\nA ja z gazety wycinek sobie przykleje na ścianie\nMam dużą ścianę i mam parę wybryków w programie\nW każdym domu na każdym ekranie pokaże się śnieg\nCałe życie z wariatami, balonik z nienawiścią pękł\n\n[Refren]\nCałe życie z wariatami, pozytywnie pojebani\nSystem w kraju ryje psychę, pierdol system trzymaj z nami\nCałe życie z wariatami, pozytywnie pojebani\nSystem w kraju ryje psychę, pierdol system trzymaj z nami\nCałe życie z wariatami, całe życie z wariatami, całe życie z wariatami\nCałe życie z wariatami",
+          "order": 4
+        },
+        {
+          "id": 805,
+          "title": "Tbh",
+          "lyrics": "BRAK",
+          "order": 5
+        },
+        {
+          "id": 806,
+          "title": "Chujowo",
+          "lyrics": "[Chujowo chujowo chujowooo]\n\nZ leksza, chujowy dzień, chujowy sen w nocy miałem\nChujowo się od rana czuję bo chujowo spałem\nChujowo znowu wstałem, tak jak zawsze lewą szłapą\nStrasznie w chuj chujowy dzień, bardziej chujowy niż NATO\nZimna zima, zimne lato, znowu chujowa pogoda\nUbieram chujowe spodnie, bluzę, taka chujowa moda\nChujowa z rana broda, trzeba ogolić pyska\nMusi się prezentować dobrze, pierwszy polski Terrorysta\nAutobusowa lista, na przystanku chujnia z grzybnią\nAutobus znowu się spóźnia, nudzi mi się, koń mi bryknął \nJakiś chuj koło mnie pryknął, jebie nieziemsko na trupy\nTaki smród że można z leksza głową napierdalać w słupy\nMyślę sobie 'chuj wam w dupy' idę z buta, chuja wbijam\nJak mi ktoś po drodze podskoczy to mu rozjebie ryja\nSłońce przebija się przez chmury kropić zaczyna\nTelefon zadzwonił dzwoni pojebana dziewczyna.\n\n[Refren]\nChujowy dzień, nie mów do mnie lepiej z rana\nTo nie chujowy sen, mogę cię odpierdolić z guna\nChujowo, chujowo, chujowo, chujowo, chujowo\nTu psychika rozjebana\n\n[O kurwa, hahaha, obejrzyj się! Obejrzyj się! hahahaha]\n\n[Zwrotka 2]\nChujów nie brakuje, podbijają do mnie jakieś chuje\nMasz dwa złote? Milcz, jak znajdę to ci mordę skuje\nPrzed chujem się nie pucuje, w ręce mam mocne dębowe\nBez zastanowienia rozjebałem kolesiowi głowę\nKolegom jego zjadło mowę, wdupili języki\nJestem kolo z Bema, reprezentuję Panewniki\nNie wierzysz spytaj wiki, panowie co jest grane?\nNo albo mnie skroicie albo macie pozamiatane\nZnam kurwa twoją mamę, wiem że pracuje w żabce\nDziennie tam u tej kurwy fałszowanymi płacę\nMiała fuksa na pracę, więc kurwa odjazd kolo\nBo Twoją starą jutro, po pracy zapierdolą\nW cweli wchodzę jak Bolo, teraz wała macie\nWyciągnąłem klamkę, wycelowałem, nasrali w gacie\nJuż odmawiają pacierz, zaczęli wszyscy beczeć\nDeszcz przed chwilą kropił, teraz zaczął już porządnie lecieć\nTych chuji po tym świecie tu bardzo dużo chodzi\nJak zajebie wszystkich trzech to to nikomu nie zaszkodzi\nKto tu dowodzi, odpowiedź jest im znana\nZłóżcie dłonie na kolana, teraz powtarzajcie 'chwalmy Pana'\nOdbezpieczyłem guna, pierwsza kula poleciała\nMiędzy oczy kolesiowi, łeb mu rozjebała\nDzisiaj macie kurwa wała, to wasz sąd ostateczny\nZ kapsy wyciągnąłem granat choć z PO miałem dostateczny \nTo wiem że granat użyteczny czasem bywa\nOdbezpieczony leży na ziemi, teraz mózgi powyrywa\nBo z takimi się tak robi, skurwysynów jebać trzeba\nTo jest jak dobry uczynek, za to idzie się do nieba\n\n[Refren]\nChujowy dzień, nie mów do mnie lepiej z rana\nTo nie chujowy sen, mogę cię odpierdolić z guna\nChujowo, chujowo, chujowo, chujowo, chujowo\nTu psychika rozjebana",
+          "order": 6
+        },
+        {
+          "id": 807,
+          "title": "Opętanie",
+          "lyrics": "Typowe opętanie\nPanie Boże pan pomoże\nGorzej być nie może, tworzę\nW korze mózgowej mam loże\nW niej zasiada o każdej porze typ z wyznaczonym celem\nKusi mnie do złego\nMówi, że jest Archaniołem Gabrielem\nWięc zapewne rozpoczynam utwór\nPotrzebuję pomocy\nW głowie mam istotę\nNie wiem kto to\nMoże obce głosy słyszę w nocy\nNa głowę dostaję, nie udaję\nNie ściemniam, bo nie jestem pierwszy lepszy frajer\nTo nie baje\nCiągle w głowie słyszę Archanioła\nSłyszę jak o pomoc woła, lecz opętać mnie nie zdoła\nTwarda życia szkoła nauczyła, żeby nie pomagać\nJebać wszystkich wokół\nBez litości ból zadawać trzeba\nBo do nieba nie jest mi po drodze\nZanim tam trafię wszystkich wrogów wynagrodzę\nTwardo po tej ziemi chodzę\nByłem, jestem, będę sobą\nJak postawią mur przede mną to go rozpierdolę głową\nOsobowość nową w głowie mam od urodzenia\nCiągle kręci się ziemia\nCiągle kierunku nie zmienia\nMówi reprezentant pokolenia dzieci szatana\nBo co drugi ksiądz pedofil na ambonie sławi pana\nInni walą w kanał taki banał\nNiech mi ktoś pomoże\nMam istotę w bani, on zwraca się do mnie, Panie Boże\nKusi mnie bym latał z nożem\nNiewinnym gardła podcinał\nNie skończy, sam sobie podetnę\nTaki będzie finał\nSmutna będzie rodzina\nNiełatwo trzymać gardę\nStoję na parapecie, okno otwarte\nStawiam na jedną kartę wszystko, co mam\nSkończ mi pierdolić do głowy, bo wyskoczę i zostaniesz sam\nChodź ze mną do piekła bram\nChora wola jego taka\nZamknij mordę skurwysunu\nSynu kurwy\nMadafaka\nCo kurwa zgrywasz kozaka?\nJesteś w mojej wyobraźni\nJesteś nikim, co najwyżej rozdwojeniem mojej jaźni\nNie będziemy się przyjaźnić\nJutro pójdę do lekarza\nDa mi skierowanie do psychiatry\nTak się czasem zdarza\nJak można upokarza\nWstydzę się przed sobą samym\nCałe osiedle już wie, ze jestem pojebany\nNa przyszłość miałem plany\nPozostały ruiny\nDroga życia zakręcona\nPod asfaltem leżą miny\nNie ma w tym niczyjej winy\nKażdy panem swego losu\nJedni wdupiają wodziankę\nDrudzy wpierdalają rosół\nNie będę wyrywać włosów\nJest jak jest, mogło być gorzej\nInnych opętały diabły,\nLatali po mieście z nożem\nNie brakuje ludzkich schorzeń\nPsychiczne skrzywienie świata\nLecz ja naprawdę mam w głowie kogoś\nNie udaję wariata\nNie jestem psychopata\nDobrze wiem, co robię\nJestem tak jak wszyscy inni\nZwykły szary, biedny człowiek\nNigdy nie zamykam powiek, kiedy idę spać\nI nie zdarza mi się nigdy do góry nogami srać\nMuszę psychotropy brać, lecz gdzieś mi się zapodziały\nPozmieniały mi się działy w życiorysie kurwa całym\nJestem kimś kim ja nie jestem\nKtoś się za mnie wypowiada\nEj, powiedział właśnie do mnie, że nie muszę się przebadać",
+          "order": 7
+        },
+        {
+          "id": 814,
+          "title": "Opętanie ostatnie stadium",
+          "lyrics": "To typowe opętanie\nPanie Boże pan pomoże\nGorzej być nie może, tworzę\nW korze mózgowej mam loże\nW niej zasiada o każdej porze typ z wyznaczonym celem\nKusi mnie do złego\nMówi, że jest Archaniołem Gabrielem\nWięc zapewne rozpoczynam utwór\nPotrzebuję pomocy\nW głowie mam istotę\nNie wiem kto to\nMoże obce głosy słyszę w nocy\nNa głowę dostaję, nie udaję\nNie ściemniam, bo nie jestem pierwszy lepszy frajer\nTo nie baje\nCiągle w głowie słyszę Archanioła\nSłyszę jak o pomoc woła, lecz opętać mnie nie zdoła\nTwarda życia szkoła nauczyła, żeby nie pomagać\nJebać wszystkich wokół\nBez litości ból zadawać trzeba\nBo do nieba nie jest mi po drodze\nZanim tam trafię wszystkich wrogów wynagrodzę\nTwardo po tej ziemi chodzę\nByłem, jestem, będę sobą\nJak postawią mur przede mną to go rozpierdolę głową\nOsobowość nową w głowie mam od urodzenia\nCiągle kręci się ziemia\nCiągle kierunku nie zmienia\nMówi reprezentant pokolenia dzieci szatana\nBo co drugi ksiądz pedofil na ambonie sławi pana\nInni walą w kanał taki banał\nNiech mi ktoś pomoże\nMam istotę w bani, on zwraca się do mnie, Panie Boże\nKusi mnie bym latał z nożem\nNiewinnym gardła podcinał\nJak nie skończy, sam sobie podetnę\nTaki będzie finał\nSmutna będzie rodzina\nNiełatwo trzymać gardę\nStoję na parapecie, okno otwarte\nStawiam na jedną kartę wszystko, co mam\nSkończ mi pierdolić do głowy, bo wyskoczę i zostaniesz sam\nChodź ze mną do piekła bram\nChora wola jego taka\nZamknij mordę skurwysunu\nSynu kurwy\nMadafaka\nCo kurwa zgrywasz kozaka?\nJesteś w mojej wyobraźni\nJesteś nikim, co najwyżej rozdwojeniem mojej jaźni\nNie będziemy się przyjaźnić\nJutro pójdę do lekarza\nDa mi skierowanie do psychiatry\nTak się czasem zdarza\nDiagnoza upokarza\nWstydzę się przed sobą samym\nCałe osiedle już wie, ze jestem pojebany\nNa przyszłość miałem plany\nPozostały ruiny\nDroga życia zakręcona\nPod asfaltem leżą miny\nNie ma w tym niczyjej winy\nKażdy panem swego losu\nJedni wdupiają wodziankę\nDrudzy wpierdalają rosół\nNie będę wyrywać włosów\nJest jak jest, mogło być gorzej\nInnych opętały diabły,\nLatali po mieście z nożem\nNie brakuje ludzkich schorzeń\nPsychiczne skrzywienie świata\nLecz ja naprawdę mam w głowie kogoś\nNie udaję wariata\nNie jestem psychopata\nDobrze wiem, co robię\nJestem tak jak wszyscy inni\nZwykły szary, biedny człowiek\nNigdy nie zamykam powiek, kiedy idę spać\nI nie zdarza mi się nigdy do góry nogami srać\nMuszę psychotropy brać, lecz gdzieś mi się zapodziały\nPozmieniały mi się działy w życiorysie kurwa całym\nJestem kimś kim ja nie jestem\nKtoś się za mnie wypowiada\nEj, powiedział właśnie do mnie, że nie muszę się przebadać",
+          "order": 14
         }
       ]
     }
@@ -123,9 +165,9 @@
     {
       "id": 1010,
       "title": "Singiel",
-      "cover": "single.jpg",
+      "cover": "LOGO2T4.jpg",
       "lyrics": "To jest singiel\nNie ma go na żadnym albumie\nAle jest popularny",
-      "release_date": "2020-03-10"
+      "release_date": "2069"
     }
   ]
 }

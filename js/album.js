@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             if (!albumData) {
-                window.location.href = '../index.html';
+                window.location.href = 'textindex.html';
                 return;
             }
             
@@ -180,4 +180,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!dateString) return '';
     return new Date(dateString).getFullYear();
     }
+
+    // Czyszczenie cache
+    window.addEventListener('beforeunload', function() {
+    localStorage.clear();
+    sessionStorage.clear();
+    });
 });

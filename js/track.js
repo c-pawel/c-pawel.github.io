@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             if (!track) {
-                window.location.href = '../index.html';
+                window.location.href = '../textindex.html';
                 return;
             }
             
@@ -70,4 +70,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         lyricsContainer.textContent = track.lyrics;
     }
+
+    // Czyszczenie cache
+    window.addEventListener('beforeunload', function() {
+    localStorage.clear();
+    sessionStorage.clear();
+    });
 });

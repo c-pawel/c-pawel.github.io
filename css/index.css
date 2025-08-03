@@ -1,0 +1,33 @@
+#header-carousel-2 .bg {
+    background-image: url('../images/bg-024.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    opacity:1;
+}#header-text .bg {
+    background-image: url('../images/1040493_650855078278016_1150005563_o.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    opacity: 0.69;
+}
+#media-iframe-text-2--1 .bg-wrap {
+	background: #000000;}#benefits-3col-3 .bg-wrap {
+    background: #000000;
+}
+#benefits-3col-3--1 .bg-wrap {
+    background-color: #f4f5f6;
+}
+#benefits-3col-3--1 .bg-wrap {
+    background-color: #f4f5f6;
+}
+#benefits-3col-3--0 .bg-wrap {
+    background: #000000;
+}
+
+#team-1col .bg-wrap {
+	background: #000000;
+}
+#team-1col .bg {
+	background-position: center top;
+}

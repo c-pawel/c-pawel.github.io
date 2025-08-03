@@ -1,18 +1,30 @@
-/* Podstawowe style */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+.custom-section {
+    max-width: 1200px;
+    margin: auto;
 }
 
-body {
-    line-height: 1.6;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    color: #333;
-    background-color: #f9f9f9;
+#benefits-3col-3--0 .bg-wrap {
+    background-color: #000000 !important;
+}
+
+.col-lg-12 {
+    height: 100px;
+}
+
+.svg-secondary {
+    position: relative;
+    bottom: 12px;
+}
+
+#szer-str {
+    max-width: 1200px !important;
+    margin: auto !important;
+}
+
+#back-to-albums {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* Style nagłówka */
@@ -22,7 +34,7 @@ header {
 }
 
 h1, h2, h3 {
-    color: #222;
+    color: #dddddd;
     margin-bottom: 20px;
 }
 
@@ -32,26 +44,6 @@ h1, h2, h3 {
     justify-content: center;
     position: relative;
     margin-bottom: 15px;
-}
-
-.home-link {
-    position: absolute;
-    left: 0;
-    color: #1db954;
-    text-decoration: none;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    transition: color 0.3s;
-}
-
-.home-link:hover {
-    color: #148a3d;
-}
-
-.home-link::before {
-    content: "←";
-    margin-right: 5px;
 }
 
 /* Style wyszukiwarki */
@@ -74,7 +66,7 @@ h1, h2, h3 {
 .search-container button {
     padding: 12px 20px;
     margin-left: 10px;
-    background: #1db954;
+    background: #333333;
     color: white;
     border: none;
     border-radius: 4px;
@@ -84,7 +76,7 @@ h1, h2, h3 {
 }
 
 .search-container button:hover {
-    background: #1aa34a;
+    background: #555555;
 }
 
 /* Style dla gridu albumów */
@@ -96,7 +88,7 @@ h1, h2, h3 {
 }
 
 .album-card {
-    background: white;
+    background: #333;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
@@ -107,11 +99,12 @@ h1, h2, h3 {
 .album-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: #555555;
 }
 
 .album-cover {
-    width: 370px;
-    height: 370px;
+    width: 385px;
+    height: 385px;
     margin: 30px;
     object-fit: cover;
     display: block;
@@ -126,7 +119,7 @@ h1, h2, h3 {
 
 .album-card p {
     padding: 0 15px 15px;
-    color: #666;
+    color: #999999;
     font-size: 14px;
 }
 
@@ -137,7 +130,7 @@ h1, h2, h3 {
     gap: 30px;
     margin-bottom: 30px;
     align-items: center;
-    background: white;
+    background: #333333;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -150,13 +143,13 @@ h1, h2, h3 {
 
 .album-info p {
     margin-bottom: 10px;
-    color: #555;
+    color: #DDDDDD;
 }
 
 /* Style dla listy utworów */
 .track-list {
     list-style: none;
-    background: white;
+    background: #333333;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -176,12 +169,12 @@ h1, h2, h3 {
 }
 
 .track-item:hover {
-    background: #f8f8f8;
+    background: #555555;
 }
 
 .track-number {
     min-width: 30px;
-    color: #666;
+    color: #DDDDDD;
     margin-right: 15px;
     font-weight: bold;
     text-align: right;
@@ -190,6 +183,7 @@ h1, h2, h3 {
 .track-title {
     flex-grow: 1;
     font-size: 16px;
+    color: #DDDDDD;
 }
 
 /* Style dla strony utworów */
@@ -199,7 +193,7 @@ h1, h2, h3 {
     gap: 30px;
     margin-bottom: 30px;
     align-items: center;
-    background: white;
+    background: #333333;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -217,17 +211,22 @@ h1, h2, h3 {
     flex: 1;
     min-width: 250px;
     font-size: 16px;
-    color: #555;
+    color: #DDDDDD;
 }
 
 #album-info strong {
-    color: #333;
+    color: #DDDDDD;
+}
+
+#lyrics-container {
+    color: #DDDDDD;
+    text-align: center !important;
 }
 
 .lyrics {
     white-space: pre-line;
     line-height: 1.8;
-    background: white;
+    background: #333333;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -235,15 +234,15 @@ h1, h2, h3 {
 }
 
 .lyrics .highlight {
-    background-color: rgba(29, 185, 84, 0.3);
+    background-color: #5cacee;
     padding: 2px 0;
     border-radius: 3px;
     animation: highlightPulse 1.5s infinite alternate;
 }
 
 @keyframes highlightPulse {
-    from { background-color: rgba(29, 185, 84, 0.3); }
-    to { background-color: rgba(29, 185, 84, 0.5); }
+    from { background-color: #5caceea4; }
+    to { background-color: #5cacee; }
 }
 
 
@@ -253,13 +252,14 @@ h1, h2, h3 {
 }
 
 .search-result {
-    background: white;
+    background: #333333;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     cursor: pointer;
     transition: transform 0.2s;
+    color: #DDDDDD;
 }
 
 .search-result:hover {
@@ -268,48 +268,59 @@ h1, h2, h3 {
 
 .search-result h3 {
     margin-bottom: 10px;
-    color: #1db954;
+    color: #BBBBBB;
 }
 
 .search-result small {
-    color: #666;
+    color: #DDDDDD;
     font-size: 14px;
 }
 
 .highlight {
-    background-color: rgba(29, 185, 84, 0.2);
+    background-color: #5cacee;
     padding: 2px 4px;
     border-radius: 3px;
     font-weight: bold;
+    color: #003D03;
 }
 
 .hidden {
     display: none;
 }
 
+.light-page #preloader>div, .light-page #preloader>div>*, .light-page #preloader>div::before, .light-page #preloader>div::after {
+	border-color: #DDD;
+	background-color: #DDD;
+}
+.dark-page #preloader>div, .dark-page #preloader>div>*, .dark-page #preloader>div::before, .dark-page #preloader>div::after {
+	border-color: #888;
+	background-color: #888;
+}
+
 /* Style dla przycisków */
-button, #back-to-album {
+.back-button, #back-to-album, .przycisk {
     padding: 10px 20px;
-    background: #1db954;
+    background: #555555;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
     transition: background 0.3s;
-    text-decoration: none;
+    text-decoration: none !important;
     display: inline-block;
 }
 
-button:hover, #back-to-album:hover {
-    background: #1aa34a;
+.back-button:hover, #back-to-album:hover, .przycisk:hover {
+    background: #333333;
+    text-decoration: none !important;
 }
 
 #back-to-album {
     display: inline-block;
     margin: 15px 0 25px;
     padding: 10px 20px;
-    background: #1db954;
+    background: #333333;
     color: white;
     border: none;
     border-radius: 4px;
@@ -324,7 +335,7 @@ button:hover, #back-to-album:hover {
     display: inline-block;
     margin: 15px 0 25px;
     padding: 10px 20px;
-    background: #1db954;
+    background: #333333;
     color: white;
     border: none;
     border-radius: 4px;
@@ -336,13 +347,31 @@ button:hover, #back-to-album:hover {
 }
 
 .back-button:hover {
-    background: #148a3d;
+    background: #555555;
 }
 
 #back-to-tracks, #back-to-albums {
-    margin: 20px auto;
-    display: block;
-    width: fit-content;
+    display: inline-block;
+    margin: 15px 0 25px;
+    padding: 10px 20px;
+    background: #333333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#back-to-tracks:hover, #back-to-albums:hover {
+    background: #555555;
+}
+
+#bb-album-margn {
+    margin-left: 5px !important;
 }
 
 .back-buttons {
@@ -354,7 +383,7 @@ button:hover, #back-to-album:hover {
 }
 
 #back-to-album:hover {
-    background: #148a3d;
+    background: #555555;
 }
 
 /* Style odpowiedzialne za responsywność (dostosowanie do urządzenia) */

@@ -35,12 +35,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Albumy
         albums.forEach(album => {
             const albumCard = document.createElement('div');
-            albumCard.className = 'album-card';
+            albumCard.className = 'album-card bg-dark.bg-gradient';
             albumCard.innerHTML = `
                 <img src="images/${album.cover}" alt="${album.title}" class="album-cover">
                 <h3>${album.title}</h3>
                 <p>${formatDate(album.release_date)}</p>
-                <p>${album.tracks.length} utworów</p>
+                <p>${album.tracks.length} ${getTrackWordForm(album.tracks.length)}</p>
             `;
             albumCard.addEventListener('click', () => {
                 window.location.href = `album.html?id=${album.id}`;
@@ -51,12 +51,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Album "Inne"
         if (otherTracks.length > 0) {
             const otherCard = document.createElement('div');
-            otherCard.className = 'album-card';
+            otherCard.className = 'bg-dark.bg-gradient album-card';
             otherCard.innerHTML = `
-                <img src="images/single.jpg" alt="Single" class="album-cover">
+                <img src="images/LOGO2T4.jpg" alt="Single" class="album-cover">
                 <h3>Single</h3>
                 <p>2008-2025<p>
-                <p>${otherTracks.length} utworów</p>
+                <p>${otherTracks.length} ${getTrackWordForm(otherTracks.length)}</p>
             `;
             otherCard.addEventListener('click', () => {
                 window.location.href = 'album.html?other=true';
@@ -64,6 +64,25 @@ document.addEventListener('DOMContentLoaded', () => {
             albumsGrid.appendChild(otherCard);
         }
     }
+
+    // Funkcja do odmiany słowa "utwór"
+    function getTrackWordForm(count) {
+    const lastTwoDigits = count % 100;
+    const lastDigit = count % 10;
+    
+    if (count === 1) {
+        return 'utwór';
+    } else if ((lastTwoDigits >= 12 && lastTwoDigits <= 14) ||
+               (lastDigit >= 5 && lastDigit <= 9) ||
+               lastDigit === 0) {
+        return 'utworów';
+    } else if (lastDigit >= 2 && lastDigit <= 4) {
+        return 'utwory';
+    } else {
+        return 'utworów';
+    }
+}
+
 
     // Wyszukiwarka
     searchBtn.addEventListener('click', performSearch);
@@ -199,4 +218,10 @@ document.addEventListener('DOMContentLoaded', () => {
     localStorage.clear();
     sessionStorage.clear();
     })
+
+    "use strict";
+    window.addEventListener('load', function() {
+    $("#preloader").delay(400).fadeOut("slow");
+	$("#preloader .clock").fadeOut();
+    });
 });

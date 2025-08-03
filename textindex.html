@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utwór - Oficjalna Strona</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
-		<link rel="stylesheet" href="css/fonts.css">
-		<link rel="stylesheet" href="css/bootstrap.weber.css">
-		<link rel="stylesheet" href="css/fx.css">
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/custom.css">
-		<link rel="stylesheet" href="css/index.css">
-		<link rel="stylesheet" href="css/preloader.css">
-    <link rel="stylesheet" href="../css/style.css">
+	<meta charset="UTF-8">
+    <meta name="keywords" content="2T4 SIBERIAN KALASH POLSKI DRILL POLISH DRILL HAYA BOOM AVE 2T4" />
+	<meta name="description" content="2T4 SIBERIAN KALASH POLSKI DRILL POLISH DRILL HAYA BOOM AVE 2T4" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/bootstrap.weber.css" />
+	<link rel="stylesheet" href="css/fx.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/custom.css" />
+	<link rel="stylesheet" href="css/preloader.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <div class="bootstrap-section" class="szer-str">
+    <div class="bootstrap-section">
         <nav id="nav-logo-menu-2--0" class="navbar navbar-expand-lg dark">
     		<div class="container">
         		<div class="row align-items-center">
@@ -70,7 +69,7 @@
     		</div>
 	    </nav>
     </div>
-	<section id="benefits-3col-3--0" class="pb-50 pt-50 text-center pt-lg-30 pb-lg-10 pt-md-30 pb-md-10 dark">
+	<section id="benefits-3col-3--0" class="pt-75 pb-75 text-center pt-lg-30 pb-lg-10 pt-md-30 pb-md-10 dark">
     			<div class="container">
         			<div class="row">
             			<div class="col-lg-12" style="">
@@ -95,28 +94,36 @@
 		</section>
 </head>
 <body class="dark-page">
-	<div class="custom-section">
-    	<header>
-    		<div class="back-buttons">
-        		<a id="back-to-album" href="#">← Powrót do albumu</a>
-        		<a href="../textindex.html" class="back-button">← Powrót do strony głównej</a>
-    		</div>
-		</header>
+	<div id="preloader"><div class="battery"><div class="load-line"></div></div></div>
+    <div class="custom-section">
+        <header>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Szukaj fragmentu tekstu...">
+                <button class ="przycisk" id="search-btn">Szukaj</button>
+            </div>
+        </header>
 
-    	<main>
-        	<div class="track-header">
-    	        <img id="track-cover" src="" alt="Okładka" class="track-cover">
-				<div class="track-info">
-					<h1 id="track-title">Utwór</h1>
-	            	<div id="album-info"></div>
-				</div>
-	        </div>
+        <main>
+            <div id="albums-grid" class="grid-container">
+                <!-- Albumy zostaną wstawione dynamicznie -->
+            </div>
 
-	        <div id="lyrics-container" class="lyrics">
-	            <!-- Tekst utworu zostanie wstawiony dynamicznie -->
-        	</div>
-    	</main>
-	</div>
-    <script src="../js/track.js"></script>
+            <div id="search-results" class="hidden">
+				<button class="przycisk srodek" id="back-to-albums">← Powrót do albumów</button>
+                <h2>Wyniki wyszukiwania</h2>
+                <div id="results-container"></div>
+            </div>
+        </main>
+    
+		<script src="js/index.js"></script>
+        <script src="js/main.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCByts0vn5uAYat3aXEeK0yWL7txqfSMX8"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/jquery.smooth-scroll.min.js"></script>
+		<script src="js/custom.js"></script>
+    </div>
 </body>
 </html>
